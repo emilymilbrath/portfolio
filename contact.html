@@ -1,0 +1,70 @@
+<!DOCTYPE html> <!--this tag is necessary for every html file, but does not require a closing tag-->
+
+<html> <!--signals the beginning of the html file-->
+    
+<head> <!--head element is a container for metadata and is placed between the html tag and the body tag-->
+    
+  <script>
+      $('.hamburger').on('click', function() {
+                         $(this).toggleClass('opened');
+                         });
+  </script>
+    
+  <title>Page Title</title> <!--title element defines the title of the document-->
+  
+  <link rel="stylesheet" href="styles.css">
+  <!--This link tells the browser where the styles I've created for the HTML are stored-->
+  
+</head> <!--closing head tag-->
+
+
+<nav role="navigation">
+    <div id="menuToggle">
+        
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        <ul id="menu">
+            <li><a href="index.html">Home</li></a>
+            <li><a href="work.html">Work</li></a>
+            <li><a href="resume.pdf">Resume</a></li></a>
+            <li><a href="contact.html">Contact Me</li></a>
+        </ul>
+    </div>
+</nav>
+
+
+<body> <!--begins the structure of the body of my file-->
+    
+    <div id="header3"> <!--The 'header' selector selects the 'header' HTML element and tells the browser to make it look the way I've described in my css file-->
+        
+        <p>EMILY MILBRATH</p>
+        
+        
+    </div> <!--closing div tag signals the end of the content in the header-->
+    
+    <div id="header2"> <!--The 'header' selector selects the 'header' HTML element and tells the browser to make it look the way I've described in my css file-->
+        
+       <p>CONTACT ME</p>
+    
+        
+    </div> <!--closing div tag signals the end of the content in the header-->
+    
+ 
+    
+    <p><font color="#97CAEF">Mobile:</font> (206) 766-0200 <br> <font color="#97CAEF">Email:</font> milbrath.em@gmail.com <br> <font color="#97CAEF">LinkedIn:</font> <a href="https://www.linkedin.com/in/emily-milbrath-509527180/">Emily Milbrath's Profile</a></p>
+    
+    <p><img src="IMG2.jpg" alt ="Artist Olivia Rooney" width="1000" height="750" style = "float: right;"></p>
+    
+   
+
+
+</body> <!--wraps up my body structure-->
+
+</html> <!--signals the end of the html file-->
+
+
+
+
